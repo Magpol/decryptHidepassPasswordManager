@@ -1,4 +1,4 @@
-# decryptHidepassPasswordManager
+# Decrypt and display data from HidePass Password Manager
 Decrypt and display data from HidePass Password Manager - com.sisomobile.android.passwordsafe
 
 The data is stored /data/data/com.sisomobile.android.passwordsafe/databases/my_password.db
