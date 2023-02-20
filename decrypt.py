@@ -50,7 +50,7 @@ def isBase64(s):
 
 def generateAppKey(hashedPassword):
     hashedciphertext = AESCipher(hashedPassword[:16].encode('utf-8'),hashedPassword[:16].encode('utf-8')).encrypt("sisomobile").decode('utf-8')
-    return bytes(hashedPassword[8:16] + hashedciphertext[1:17] + hashedPassword[0:8],'UTF-8')
+    return bytes(hashedPassword[8:16] + hashedciphertext[1:17] + hashedPassword[0:8],'utf-8')
 
 def main():
     try:
